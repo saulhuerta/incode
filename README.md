@@ -53,4 +53,4 @@
 
 ### UI to search by verificationId
 #### http://localhost:8080/logs/view
-
+![image_alt](https://github.com/saulhuerta/incode/blob/2f3b0c811aae6db4687f6f1de0944b8c86c203b7/incode-logs.png)
