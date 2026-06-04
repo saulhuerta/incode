@@ -1,19 +1,9 @@
 # Incode Challenge
 
 ## Methods
-#### GET http://localhost:8080/logs/api/request/{verificationId}
-##### Example: http://localhost:8080/logs/api/request/b1ae5eec-6999-4314-a943-8b6eb5de091b
 
 #### GET http://localhost:8080/backend-service?verificationId={verificationId}&query={query}
-##### Example: http://localhost:8080/backend-service?verificationId=10125f63-967c-4d46-9e7e-52168e9a4a3b&query=2
-
-#### GET http://localhost:8080/premium-third-party?query={query}
-##### Example: http://localhost:8080/premium-third-party?query=W
-
-## Review requests
-#### GET http://localhost:8080/logs/api/request/{verificationId}
-##### Example (request): http://localhost:8080/logs/api/request/b1ae5eec-6999-4314-a943-8b6eb5de091b
-
+##### Example (request): http://localhost:8080/backend-service?verificationId=10125f63-967c-4d46-9e7e-52168e9a4a3b&query=2
 ##### Example (response): 
 ```json 
     [
@@ -50,6 +40,16 @@
   }
 ]
 ```
+
+#### GET http://localhost:8080/free-third-party?query={query}
+##### Example: http://localhost:8080/free-third-party?query=W
+
+#### GET http://localhost:8080/premium-third-party?query={query}
+##### Example: http://localhost:8080/premium-third-party?query=W
+
+## Review requests by verificationId
+#### GET http://localhost:8080/logs/api/request/{verificationId}
+##### Example (request): http://localhost:8080/logs/api/request/b1ae5eec-6999-4314-a943-8b6eb5de091b
 
 ### UI to search by verificationId
 #### http://localhost:8080/logs/view
